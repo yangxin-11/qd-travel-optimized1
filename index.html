@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青岛一日游攻略</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 12px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background-color: #0057b8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0057b8;
+            margin: 15px 0 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #0057b8;
+        }
+        .content {
+            padding: 15px;
+        }
+        .spot {
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 12px;
+            position: relative;
+        }
+        .spot h3 {
+            font-size: 18px;
+            color: #0057b8;
+            margin-bottom: 8px;
+        }
+        .spot p {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .time {
+            font-weight: bold;
+            color: #d23669;
+        }
+        .tips {
+            background-color: #fff8e6;
+            border-left: 4px solid #ffd700;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .map-link {
+            display: inline-block;
+            margin-top: 5px;
+            background-color: #0057b8;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .transport-icon {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f0f0f0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>青岛一日游完美攻略</h1>
+            <p>海风、啤酒与老建筑的完美邂逅</p>
+        </header>
+        
+        <div class="content">
+            <section>
+                <h2>行程概览</h2>
+                <p>本攻略为您安排了一天内游览青岛最精华景点的路线，包括五四广场、栈桥、八大关、啤酒博物馆等经典景点。</p>
+            </section>
+            
+            <section>
+                <h2>详细行程</h2>
+                
+                <div class="spot">
+                    <h3>五四广场 - 五月的风</h3>
+                    <p><span class="time">08:30-09:30</span> 从五四广场开始您的青岛之旅，欣赏标志性的"五月的风"雕塑，俯瞰青岛湾美景。</p>
+                    <p>地址：青岛市市南区东海西路</p>
+                    <a href="javascript:openMap('五四广场', 120.38482,36.06427)" class="map-link">导航到这里</a>
+                </div>
+                
+                <div class="spot">
+                    <h3>奥帆中心</h3>
+                    <p><span class="time">09:45-10:45</span> 漫步奥帆中心，欣赏帆船和海景，可选择乘坐游船游览青岛湾。</p>
+                    <p>地址：青岛市市南区燕儿岛路10号</p>
+                    <a href="javascript:openMap('青岛奥帆中心', 120.40537,36.05506)" class="map-link">导航到这里</a>
+                </div>
+                
+                <div class="spot">
+                    <h3>八大关风景区</h3>
+                    <p><span class="time">11:00-12:30</span> 欣赏中西合璧的别墅建筑群，感受青岛独特的历史文化。</p>
+                    <p>地址：青岛市市南区汇泉东路9号</p>
+                    <a href="javascript:openMap('八大关', 120.41501,36.05386)" class="map-link">导航到这里</a>
+                </div>
+                
+                <div class="spot">
+                    <h3>午餐：海鲜美食</h3>
+                    <p><span class="time">12:30-14:00</span> 在市南区品尝新鲜海鲜，推荐尝试青岛特色小海鲜、啤酒鱼等美食。</p>
+                    <p>推荐：登州路或大学路的海鲜餐厅</p>
+                </div>
+                
+                <div class="spot">
+                    <h3>栈桥及周边</h3>
+                    <p><span class="time">14:15-15:45</span> 游览百年栈桥，欣赏标志性的回澜阁，拍摄经典照片。</p>
+                    <p>地址：青岛市市南区太平路14号</p>
+                    <a href="javascript:openMap('青岛栈桥', 120.31212,36.06136)" class="map-link">导航到这里</a>
+                </div>
+                
+                <div class="spot">
+                    <h3>青岛啤酒博物馆</h3>
+                    <p><span class="time">16:00-17:30</span> 了解青岛啤酒历史，参观酿造过程，品尝鲜啤。</p>
+                    <p>地址：青岛市市北区登州路56号</p>
+                    <a href="javascript:openMap('青岛啤酒博物馆', 120.32525,36.07346)" class="map-link">导航到这里</a>
+                </div>
+                
+                <div class="spot">
+                    <h3>晚餐：啤酒街</h3>
+                    <p><span class="time">18:00-19:30</span> 在啤酒街享用晚餐，品尝青岛特色烧烤和鲜啤。</p>
+                    <p>地址：青岛市市北区登州路</p>
+                </div>
+                
+                <div class="spot">
+                    <h3>夜游浮山湾</h3>
+                    <p><span class="time">19:45-21:00</span> 欣赏青岛夜景，海湾大桥和城市灯光构成绝美夜景。</p>
+                    <p>地址：青岛市市南区东海西路（五四广场附近）</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>交通信息</h2>
+                <p><span class="transport-icon">🚇</span> 青岛有地铁和公交系统，地铁2号线、3号线和8号线连接多个主要景点。</p>
+                <p><span class="transport-icon">🚌</span> 市内观光巴士26路经过多个景点，适合观光游览。</p>
+                <p><span class="transport-icon">🚕</span> 打车起步价约10元，市区内景点间打车一般在30元以内。</p>
+            </section>
+            
+            <section>
+                <h2>实用提示</h2>
+                <div class="tips">
+                    <p>- 青岛天气多变，建议携带防晒用品、雨具</p>
+                    <p>- 五一至十一期间为旅游旺季，景点人流量大</p>
+                    <p>- 购买当地特产如啤酒、海鲜干货和贝壳工艺品</p>
+                    <p>- 尝试青岛特色美食：啤酒鱼、海鲜水饺、辣炒蛤蜊等</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>预算参考</h2>
+                <p>一日游总预算约300-500元/人</p>
+                <p>- 交通：50-100元</p>
+                <p>- 餐饮：150-250元</p>
+                <p>- 门票：100-150元</p>
+            </section>
+        </div>
+        
+        <footer>
+            <p>青岛一日游攻略 | 更新日期：2025年6月6日</p>
+        </footer>
+    </div>
+
+    
+<script>
+    function openMap(name, lng, lat) {
+        // 优先使用高德网页版地图，兼容所有移动端浏览器
+        var url = "https://uri.amap.com/marker?position=" + lng + "," + lat + "&name=" + encodeURIComponent(name);
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html> 
